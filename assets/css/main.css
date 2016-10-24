@@ -2656,13 +2656,14 @@
 
 		.features article {
 			padding: 1.75em 1.75em 0.1em 1.75em ;
-			background-color: #353849;
+			background-color: rgba(0, 0, 0, 0.1);
 			border-radius: 5px;
 			margin: 1.5em 3em 1.5em 0;
-			width: calc(50% - 1.5em);
+			width: calc(25% - 2.25em);
+			text-align: center;
 		}
 
-			.features article:nth-child(2n) {
+			.features article:nth-child(4n) {
 				margin-right: 0;
 			}
 
@@ -2685,7 +2686,7 @@
 
 			.features article {
 				margin: 1em 2em 1em 0;
-				width: calc(50% - 1em);
+				width: calc(25% - 1.5em);
 			}
 
 		}
@@ -2697,6 +2698,10 @@
 				margin: 0.875em 1.75em 0.875em 0;
 				width: calc(50% - 0.875em - 1px);
 			}
+
+				.features article:nth-child(2n) {
+					margin-right: 0em;
+				}
 
 				.features article .image {
 					margin-bottom: 1.5em;
